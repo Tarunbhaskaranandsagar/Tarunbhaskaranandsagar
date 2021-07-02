@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu*/
+.white {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    animation-name: switch;
+    animation-duration: 5s;
+}
+
+.img {
+    width: 10px;
+}
+
+@keyframes switch {
+    from {
+        color: black;
+    }
+
+    to {
+        color: white;
+    }
+}
+
+/*nav*/
+
+.p-4 .col-lg .text-muted {
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.col-lg .link a {
+    text-decoration: none;
+}
+
+/*social*/
+.social .fa {
+    font-size: 25px;
+    margin: 5px;
+    color: #ccc;
+}
+
+.cont .text-muted {
+    font-size: 15px !important;
+}
+
+.cont a {
+    font-size: 12px;
+}
+
+/*IMAGE*/
+.size {
+    margin-top: 20px;
+    width: 650px;
+    margin-left: -60px;
+}
+
+@media(max-width:990px) {
+    .size {
+        margin: 0;
+        width: 100%;
+    }
+
+    .front h1 {
+        font-size: 40px !important;
+        margin-top: 20px;
+    }
+
+    .front .position {
+        margin-top: 20px !important;
+    }
+
+    .slogan {
+        font-size: 12px !important;
+    }
+
+    .services h4 {
+        font-size: 25px !important;
+    }
+
+}
+
+/*//FRONT*/
+.front {
+    margin-bottom: 70px;
+}
+
+.front .position {
+    margin-top: 250px;
+}
+
+.front h1 {
+    font-size: 60px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 15px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button button {
+    width: 120px;
+    height: 50px;
+    border: 1px solid green;
+    border-radius: 10px !important;
+    background-color: #009a4d;
+    color: white;
+    transition: 0.5s;
+}
+
+.button button:hover {
+    color: black;
+    background-color: white;
+}
+
+/*ICONs*/
+.services {
+    text-align: center;
+    margin: 20px;
+}
+
+.services .fa {
+    font-size: 40px;
+    transform: translateY(-50px);
+    border: 8px solid white;
+    border-radius: 50%;
+    padding: 25px;
+    background-color: #13b287;
+    color: white !important;
+
+}
+
+.services h4 {
+    color: white;
+    font-size: 33px;
+    margin-top: -20px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+
+.services .col-lg {
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.services p {
+    text-align: left;
+    font-size: 15px;
+    color: navajowhite;
+    margin-bottom: 10px;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.testimonial h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+/*?TEStimonial*/
+.testimonial {
+    text-align: center;
+    margin: 20px;
+}
+
+.testimonial img {
+    width: 80px;
+    border: 8px solid royalblue;
+    border-radius: 50%;
+    transform: translateY(-40px);
+}
+
+@media(max-width:990px) {
+
+    .testimonial .col-lg {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .services .col-lg {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+.testimonial .col-lg {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: linear-gradient(45deg, #29efb9, #2e4fb2);
+}
+
+.testimonial h4 {
+    margin: 7px;
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.testimonial p {
+    font-size: 16px !important;
+    text-align: left;
+    margin: 10px;
+    color: black;
+}
+
+/*ABOUT US*/
+.about h2 {
+    font-family: cursive;
+    font-size: 40px !important;
+    text-align: center;
+
+    margin-top: 40px;
+}
+
+@media(max-width:990px) {
+    .about p {
+        margin: 20px !important;
+        font-family: cursive;
+    }
+}
+
+.about p {
+    margin-top: 150px;
+    font-family: cursive;
+}
+
+/*FOOTER*/
+.footer .text-muted {
+
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.footer .social {
+    text-align: center !important;
+    margin-bottom: 20px;
+}
+
+.fa {
+    transition: 0.5s;
+}
+
+.footer .fa:hover {
+    box-shadow: 2px 2px solid black;
+}
+
+.fa-twitter:hover {
+
+    transform: translateY(-5px);
+    color: #1eb7ef;
+}
+
+.fa-instagram:hover {
+
+    transform: translateY(-5px);
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube:hover {
+
+    transform: translateY(-5px);
+    color: rgba(255, 0, 0, 0.85);
+}
+
+.fa-telegram:hover {
+
+    transform: translateY(-5px);
+    color: aqua;
+}

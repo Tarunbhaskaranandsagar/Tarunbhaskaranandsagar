@@ -1,0 +1,91 @@
+header h1 {
+    font-size: 60px;
+    margin-top: 250px;
+    text-align-last: center;
+    font-family: cursive;
+}
+
+@media(max-width:990px) {
+    header h1 {
+        font-size: 40px !important;
+        margin-top: 30px !important;
+    }
+
+    header button {
+        margin-bottom: 30px;
+    }
+
+    header img {
+        margin-top: 54px !important;
+    }
+
+    .alert {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .do_you_Know p {
+        font-size: 12px !important;
+        width: 100px !important;
+        color: white;
+        text-align: center !important;
+        transform: translateY(-190px) translateX(100px) !important;
+    }
+}
+
+#daily {
+    padding-top: 40px;
+}
+
+.do_you_Know p {
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    text-align: center !important;
+    transform: translateY(-400px) translateX(500px);
+}
+
+.align {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.align button {
+    width: 120px;
+    height: 50px;
+    border: 2px solid rgb(196, 21, 54);
+    border-radius: 8px !important;
+    color: white !important;
+    background-color: rgb(196, 21, 54);
+    transition: 1s;
+}
+
+.align button:hover {
+    color: rgb(196, 21, 54) !important;
+    font-weight: 600;
+    background-color: white;
+
+}
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+
+.alert {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.do_you_Know {
+    text-align: center;
+    margin: 40px;
+}
